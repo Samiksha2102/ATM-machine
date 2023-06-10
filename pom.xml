@@ -14,19 +14,19 @@
     <maven.compiler.release>${java.version}</maven.compiler.release>
   </properties>
  
-  <dependencies>
+<!--   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
-  <build>
+  </dependencies> -->
+<!--   <build>
     <finalName>ATM</finalName>
   </build>
 </project>
-
+ -->
      
 <!--     <dependencies>
            <dependency>
@@ -37,7 +37,7 @@
        </dependencies>
        <!-- end::joda[] --> -->
        
-<!--     <build>
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -63,4 +63,4 @@
         </plugins>
     </build>
 </project>
- -->
+

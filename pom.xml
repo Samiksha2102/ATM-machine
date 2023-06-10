@@ -14,28 +14,22 @@
     <maven.compiler.release>${java.version}</maven.compiler.release>
   </properties>
  
-<!--   <dependencies>
+
+   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.8.2</version>
       <scope>test</scope>
     </dependency>
-  </dependencies> -->
-<!--   <build>
-    <finalName>ATM</finalName>
-  </build>
-</project>
- -->
-     
-<!--     <dependencies>
-           <dependency>
-               <groupId>atm</groupId>
-               <artifactId>atm</artifactId>
-               <version>2.2</version>
-           </dependency>
-       </dependencies>
-       <!-- end::joda[] --> -->
+    <dependency>
+      <groupId>jakarta.platform</groupId>
+      <artifactId>jakarta.jakartaee-web-api</artifactId>
+      <version>9.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+
        
     <build>
         <plugins>
